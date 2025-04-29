@@ -111,17 +111,17 @@ export default function Home() {
       </section>
       <section
         ref={sectionRef}
-        className="bg-amber-100 p-24 h-dvh h-dvh flex flex-col text-amber-900">
-        <div ref={contentRef}>
-          <div>
+        className="bg-amber-100 h-dvh h-dvh flex flex-col text-amber-900">
+        <div
+          ref={contentRef}
+          className="grid grid-cols-1 xl:grid-cols-2 h-full">
+          <div className="px-24">
             <h1 className="text-6xl font-bold text-amber-950">
               The Opportunity
             </h1>
-            <p className="opacity-80 uppercase font-bold mb-12">
+            <p className="opacity-80 uppercase font-bold">
               A Rare Canvas at the Heart of Hegra, near AlUla
             </p>
-          </div>
-          <div>
             <ul className="list-disc list-inside space-y-4">
               <li>
                 A distinctive plot with natural beauty, strategic location and
@@ -142,6 +142,12 @@ export default function Home() {
                 transformational high-end retreat
               </li>
             </ul>
+          </div>
+          <div className="grid grid-cols-2 h-full">
+            <div className="bg-red-500">1</div>
+            <div className="bg-amber-500">2</div>
+            <div className="bg-amber-500">3</div>
+            <div className="bg-red-500">4</div>
           </div>
         </div>
       </section>
@@ -223,9 +229,7 @@ export default function Home() {
                 <p className="uppercase tracking-widest font-bold">
                   {proposedName.nameEn}
                 </p>
-                <p className="font-light text-2xl/6">
-                  {proposedName.meaningAr}
-                </p>
+                <p className="font-light text-xl/6">{proposedName.meaningAr}</p>
                 <p className="quiverleaf text-xl/6">{proposedName.meaningEn}</p>
                 <p className="text-xs/4 text-start opacity-50 font-light">
                   {proposedName.commentEn}
