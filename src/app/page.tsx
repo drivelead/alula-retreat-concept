@@ -211,8 +211,7 @@ export default function Home() {
           <div className="p-24">
             <h1 className="text-6xl font-bold">Proposed Names</h1>
             <p className="opacity-80 uppercase font-bold mb-12">
-              A few early name ideas to start a conversation — all inspired by
-              the land, light, and spirit of place.
+              A few early ideas inspired by the essence of the place.
             </p>
           </div>
           <div className="w-full space-x-8 flex flex-row ps-24">
@@ -224,7 +223,7 @@ export default function Home() {
                 <p className="uppercase tracking-widest font-bold">
                   {proposedName.nameEn}
                 </p>
-                <p className="quiverleaf text-2xl/6">
+                <p className="font-light text-2xl/6">
                   {proposedName.meaningAr}
                 </p>
                 <p className="quiverleaf text-xl/6">{proposedName.meaningEn}</p>
