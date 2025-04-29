@@ -212,7 +212,7 @@ export default function Home() {
       </section>
       <section
         ref={sectionRef}
-        className="bg-emerald-900 h-dvh h-dvh flex flex-col items-center justify-center">
+        className="bg-[#4a5c40] text-[#f5f0eb] h-dvh h-dvh flex flex-col items-center justify-center">
         <div ref={contentRef} className="w-full h-full">
           <div className="p-24">
             <h1 className="text-6xl font-bold">Proposed Names</h1>
@@ -223,7 +223,7 @@ export default function Home() {
           <div className="w-full space-x-8 flex flex-row ps-24">
             {proposedNames.map((proposedName) => (
               <div
-                className="w-64 border-emerald-500 bg-emerald-950 border-2 rounded-xl p-6 space-y-4 text-center"
+                className="w-64 border-emerald-200 bg-emerald-800/10 border-2 rounded-xl p-6 space-y-4 text-center"
                 key={proposedName.nameEn}>
                 <h2 className="text-5xl">{proposedName.nameAr}</h2>
                 <p className="uppercase tracking-widest font-bold">
