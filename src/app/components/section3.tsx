@@ -8,7 +8,7 @@ export default function Section3({}: Props) {
   return (
     <SectionWrapper
       id="features"
-      className="bg-lime-950 text-white relative flex flex-col items-center justify-center">
+      className="bg-gradient-to-tl from-lime-900 to-lime-950 text-white relative flex flex-col items-center justify-center">
       <h1 className="text-6xl font-bold">
         Natural Drama. Foundational Potential.
       </h1>
