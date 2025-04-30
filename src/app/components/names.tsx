@@ -6,7 +6,7 @@ type Props = {};
 const proposedNames = [
   {
     nameAr: "نُزل الحِجر",
-    nameEn: "Nuzul AlHijr",
+    nameEn: "Nuzl AlHijr",
     meaningAr: "نُزل: مكان الإقامة المؤقت. الحِجر: المنطقة الصخرية",
     meaningEn: "A place of temporary lodging in Al-Hijr",
     commentEn:
@@ -15,7 +15,7 @@ const proposedNames = [
   {
     nameAr: "الحِجر فيوز",
     nameEn: "AlHijr Views",
-    meaningAr: "الحِجر: المنطقة الصخرية. ڤيوز: الإطلالات",
+    meaningAr: "الحِجر: المنطقة الصخرية. فيوز: الإطلالات",
     meaningEn: "The views of Al-Hijr",
     commentEn:
       "Feels contemporary, clear, and descriptive — ideal for a destination known for scenery.",
@@ -29,7 +29,7 @@ const proposedNames = [
       "A poetic, emotional name that speaks of longing, return, and spiritual arrival.",
   },
   {
-    nameAr: "سَرايا الحِجر",
+    nameAr: "سرايا الحِجر",
     nameEn: "SarayAlHijr",
     meaningAr: "جمع سُرية، أو مبنى فخم للضيافة والإقامة",
     meaningEn: "The noble guest houses or chambers of Al-Hijr.",
@@ -37,7 +37,7 @@ const proposedNames = [
       "Elegant, timeless, premium, historic, and dignified — a name with hospitality heritage.",
   },
   {
-    nameAr: "مَكْمَن",
+    nameAr: "مَكمن",
     nameEn: "Makman",
     meaningAr: "المكان الخفي أو المستتر أو الكامن",
     meaningEn: "The concealed location",
@@ -50,8 +50,7 @@ export default function Names({}: Props) {
   return (
     <SectionWrapper
       id="section-5"
-      className="bg-emerald-900 text-white relative"
-    >
+      className="bg-emerald-900 text-white relative">
       <div className="w-full h-full">
         <div className="p-24">
           <h1 className="text-6xl font-bold">Proposed Names</h1>
@@ -63,10 +62,9 @@ export default function Names({}: Props) {
           {proposedNames.map((proposedName) => (
             <div
               className="w-64 border-emerald-500 bg-emerald-950 border-2 rounded-xl p-6 space-y-4 text-center"
-              key={proposedName.nameEn}
-            >
-              <h2 className="text-5xl">{proposedName.nameAr}</h2>
-              <p className="uppercase tracking-widest font-bold">
+              key={proposedName.nameEn}>
+              <h2 className="text-5xl font-black">{proposedName.nameAr}</h2>
+              <p className="uppercase tracking-[0.3rem] font-bold">
                 {proposedName.nameEn}
               </p>
               <p className="font-light text-xl/6">{proposedName.meaningAr}</p>
