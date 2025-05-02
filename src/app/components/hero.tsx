@@ -1,53 +1,49 @@
-import React from "react";
+"use client";
+
+import { useRef } from "react";
 import Image from "next/image";
-// import gsap from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+import AnimatedSection from "./animatedSection";
 
-// gsap.registerPlugin(ScrollTrigger);
-
-import SectionWrapper from "./section-snap";
+gsap.registerPlugin(ScrollTrigger);
 
 type Props = {};
 
 export default function Hero({}: Props) {
-  // React.useEffect(() => {
-  //   const section = sectionRef.current;
-  //   if (!section) return;
+  const bgRef = useRef(null);
 
-  //   const content = section.querySelector(".animate");
-  //   if (!content) return;
-
-  //   gsap.fromTo(
-  //     content,
-  //     { opacity: 0, y: 50 },
-  //     {
-  //       opacity: 1,
-  //       y: 0,
-  //       duration: 1,
-  //       ease: "power2.out",
-  //       scrollTrigger: {
-  //         trigger: section,
-  //         start: "top center",
-  //         toggleActions: "play none none reverse",
-  //       },
-  //     }
-  //   );
-  // }, []);
+  useGSAP(() => {
+    gsap.to(bgRef.current, {
+      y: "-20%", // Scroll slower than content
+      ease: "none",
+      scrollTrigger: {
+        trigger: bgRef.current,
+        start: "top top",
+        end: "bottom top",
+        scrub: true,
+      },
+    });
+  }, []);
 
   return (
-    <SectionWrapper id="hero" className="bg-amber-500 text-white relative">
-      <div className="absolute top-0 h-full w-full">
+    <AnimatedSection id="hero" className="text-white relative">
+      <div className="absolute top-0 h-full w-full overflow-hidden">
         <Image
+          ref={bgRef}
           src="/photos/neom/neom--RlktmDy3Ec-unsplash.jpg"
           width={1920}
           height={1080}
           alt="Hegra-AlUla Retreat Development"
-          className="object-cover h-full w-full"
+          className="scale-150 object-cover h-full w-full will-change-transform"
         />
       </div>
       <div className="absolute top-0 h-full w-full flex flex-col items-center justify-center">
-        <h1 className="text-6xl font-bold">Hegra-AlUla Retreat Development</h1>
-        <p className="opacity-60 tracking-wider uppercase font-bold">
+        <h1 className="anim text-6xl font-bold">
+          Hegra-AlUla Retreat Development
+        </h1>
+        <p className="anim opacity-60 tracking-wider uppercase font-bold">
           Development Vision, Benchmark Inspiration, and Naming
         </p>
       </div>
@@ -58,6 +54,6 @@ export default function Hero({}: Props) {
           DOWN
         </div>
       </div>
-    </SectionWrapper>
+    </AnimatedSection>
   );
 }

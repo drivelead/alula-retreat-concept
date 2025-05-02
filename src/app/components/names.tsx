@@ -1,5 +1,6 @@
 import React from "react";
 import SectionWrapper from "./section-snap";
+import AnimatedSection from "./animatedSection";
 
 type Props = {};
 
@@ -48,20 +49,20 @@ const proposedNames = [
 
 export default function Names({}: Props) {
   return (
-    <SectionWrapper
+    <AnimatedSection
       id="section-5"
       className="bg-emerald-900 text-white relative">
       <div className="w-full h-full">
         <div className="p-24">
-          <h1 className="text-6xl font-bold">Proposed Names</h1>
-          <p className="opacity-80 uppercase font-bold mb-12">
+          <h1 className="anim text-6xl font-bold">Proposed Names</h1>
+          <p className="anim opacity-80 uppercase font-bold mb-12">
             A few early ideas inspired by the essence of the place.
           </p>
         </div>
         <div className="w-full space-x-8 flex flex-row ps-24">
           {proposedNames.map((proposedName) => (
             <div
-              className="w-64 border-emerald-500 bg-emerald-950 border-2 rounded-xl p-6 space-y-4 text-center"
+              className="anim w-64 border-emerald-500 bg-emerald-950 border-2 rounded-xl p-6 space-y-4 text-center"
               key={proposedName.nameEn}>
               <h2 className="text-5xl font-black">{proposedName.nameAr}</h2>
               <p className="uppercase tracking-[0.3rem] font-bold">
@@ -76,6 +77,6 @@ export default function Names({}: Props) {
           ))}
         </div>
       </div>
-    </SectionWrapper>
+    </AnimatedSection>
   );
 }

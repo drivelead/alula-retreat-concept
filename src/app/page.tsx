@@ -7,7 +7,7 @@ import Section4 from "./components/section4";
 export default function Home() {
   return (
     <main>
-      <div className="h-dvh snap-y snap-mandatory overflow-y-scroll scroll-smooth">
+      <div className="">
         <Hero />
         <Opportunity />
         <Section3 />
