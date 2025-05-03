@@ -21,7 +21,7 @@ export default function Hero({}: Props) {
       scrollTrigger: {
         trigger: bgRef.current,
         start: "top top",
-        end: "bottom top",
+        end: "center top",
         scrub: true,
       },
     });
