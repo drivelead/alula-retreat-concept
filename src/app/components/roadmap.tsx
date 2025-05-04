@@ -128,17 +128,25 @@ export default function Roadmap() {
     <section
       ref={sectionRef}
       className="relative h-screen w-full overflow-hidden bg-amber-800 text-white">
+      {/* Connecting line */}
+      <div className="absolute top-10 left-0 w-full h-1 bg-amber-700 z-0 transform -translate-y-1/2"></div>
+
       <div
         ref={containerRef}
-        className="flex h-full w-[400vw] items-center space-x-24 px-24">
+        className="relative flex h-full w-[400vw] items-center space-x-24 px-24 z-10">
         {roadmapEn.map((phase, index) => (
           <div
             key={index}
-            className="roadmap-phase w-screen flex-shrink-0 snap-center">
-            <h2 className="text-4xl font-bold text-amber-400 mb-4">
+            className="roadmap-phase w-screen flex-shrink-0 snap-center relative">
+            {/* Number badge */}
+            <div className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1/2 z-20 bg-amber-800 border-4 border-amber-700 text-white w-10 h-10 flex items-center justify-center rounded-full font-bold shadow-md">
+              {index + 1}
+            </div>
+
+            <h2 className="text-4xl font-bold text-amber-400 mb-4 ml-12">
               {phase.title}
             </h2>
-            <ul className="list-disc pl-6 space-y-2 text-white/90">
+            <ul className="list-disc pl-12 space-y-2 text-white/90">
               {phase.descriptionPoints.map((point, idx) => (
                 <li key={idx}>{point}</li>
               ))}
