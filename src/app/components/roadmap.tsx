@@ -38,7 +38,7 @@ export const roadmapEn = [
     ],
   },
   {
-    title: "Masterplanning & Concept Design",
+    title: "Concept Design",
     descriptionPoints: [
       "Translate guest experience into site layout: arrival, movement, privacy, views, noise buffer zones.",
       "Define unit positioning, F&B locations, paths, pool, shared facilities.",
@@ -47,7 +47,7 @@ export const roadmapEn = [
     ],
   },
   {
-    title: "Operational & Ownership Model",
+    title: "Operational Model",
     descriptionPoints: [
       "Decide structure: owner-operated, leased to brand, JV with hospitality group, or hybrid.",
       "Define required skillsets for operations team.",
