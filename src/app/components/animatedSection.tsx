@@ -17,13 +17,13 @@ export default function AnimatedSection({
   id,
   ...props
 }: Props) {
-  const sectionRef = useRef(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
 
   useGSAP(
     () => {
       const elements = sectionRef.current?.querySelectorAll(".anim");
 
-      gsap.from(elements, {
+      gsap.from(elements as gsap.TweenTarget, {
         y: 50,
         opacity: 0,
         duration: 0.8,
@@ -44,7 +44,8 @@ export default function AnimatedSection({
       id={id}
       ref={sectionRef}
       className={`min-h-screen ${className}`}
-      {...props}>
+      {...props}
+    >
       {children}
     </section>
   );
