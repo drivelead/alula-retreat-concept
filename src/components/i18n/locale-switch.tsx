@@ -12,7 +12,7 @@ export default function LocaleSwitch() {
   const router = useRouter();
   const currentPathname = usePathname();
 
-  const onLanguageChange = () => {
+  const onLocaleChange = () => {
     const newLocale = activeLocale === "en" ? "ar" : "en";
 
     // Set a cookie for next-i18n-router to read the new locale
@@ -36,12 +36,11 @@ export default function LocaleSwitch() {
   };
 
   return (
-    <div className="widget language-switch-widget">
+    <div className="widget locale-switch-widget">
       <button
-        variant="link"
-        size="icon"
         className="w-auto cursor-pointer bg-transparent"
-        onClick={onLanguageChange}>
+        onClick={onLocaleChange}
+      >
         <span className="rtl:text-xs rtl:tracking-wide rtl:uppercase px-2">
           {activeLocale === "en" ? "عربي" : "English"}
         </span>

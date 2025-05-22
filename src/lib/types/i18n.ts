@@ -1,4 +1,3 @@
-// lib/types/i18n.ts
 export type Locale = "en" | "ar";
 
 export type EqvLocale = "en-GB" | "ar-SA";

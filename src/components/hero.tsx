@@ -3,15 +3,18 @@
 import { useRef } from "react";
 import Image from "next/image";
 import { gsap } from "gsap";
+import { useTranslation } from "react-i18next";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+
 import AnimatedSection from "./animatedSection";
 
 gsap.registerPlugin(ScrollTrigger);
 
-type Props = {};
-
-export default function Hero({}: Props) {
+export default function Hero() {
+  const { t } = useTranslation("home", {
+    keyPrefix: "content.section-1",
+  });
   const bgRef = useRef(null);
 
   useGSAP(() => {
@@ -40,11 +43,9 @@ export default function Hero({}: Props) {
         />
       </div>
       <div className="absolute top-0 h-full w-full flex flex-col items-center justify-center bg-gradient-to-t from-neutral-800 via-neutral-800/10 via-20%">
-        <h1 className="anim text-6xl font-bold">
-          Hegra-AlUla Retreat Development
-        </h1>
+        <h1 className="anim text-6xl font-bold">{t("title")}</h1>
         <p className="anim opacity-60 tracking-wider uppercase font-bold">
-          Development Vision, Benchmark Inspiration, and Naming
+          {t("description")}
         </p>
       </div>
     </AnimatedSection>

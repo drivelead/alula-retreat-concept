@@ -2,7 +2,6 @@
 
 import React, { useRef } from "react";
 import Image from "next/image";
-import SectionWrapper from "./section-snap";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -36,7 +35,8 @@ export default function Opportunity({}: Props) {
   return (
     <AnimatedSection
       id="opportunity"
-      className="bg-neutral-800 text-neutral-200 relative flex flex-col">
+      className="bg-neutral-800 text-neutral-200 relative flex flex-col"
+    >
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="p-24">
           <h1 className="anim text-6xl font-bold text-amber-200">

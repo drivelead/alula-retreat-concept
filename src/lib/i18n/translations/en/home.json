@@ -1,4 +1,12 @@
 {
-  "welcome": "Welcome",
-  "description": "This is an English description."
+  "meta": {
+    "title": "AlUla Retreat",
+    "description": "A unique and immersive experience for adventurers and nature lovers."
+  },
+  "content": {
+    "section-1": {
+      "title": "Hegra-AlUla Retreat Development",
+      "description": "Development Vision, Benchmark Inspiration, and Naming"
+    }
+  }
 }

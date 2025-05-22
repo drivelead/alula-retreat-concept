@@ -2,7 +2,7 @@
 
 import { I18nextProvider } from "react-i18next";
 import { createInstance } from "i18next";
-import { serverSideTranslation } from "@/lib/i18n/server";
+import { serverSideTranslation } from "@/lib/i18n";
 
 type Props = {
   children: React.ReactNode;
