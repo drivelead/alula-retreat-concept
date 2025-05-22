@@ -1,0 +1,210 @@
+import React from "react";
+
+type Props = {};
+
+export const siteAdditions = [
+  {
+    title: "Common Swimming Pool",
+    image: "https://images.unsplash.com/photo-1576504446184-d4ce8e6f2adf",
+    description:
+      "A shared pool for guests to cool off and gather, potentially near the palm grove.",
+    pros: [
+      "Strong guest appeal",
+      "Anchors site visually",
+      "Enhances relaxation narrative",
+    ],
+    cons: ["Requires water management", "High visibility impacts privacy"],
+    cost: "$$",
+  },
+  {
+    title: "Prefab Accommodation Cabins",
+    image: "https://images.unsplash.com/photo-1682685797769-481b48222adf",
+    description:
+      "High-quality prefabricated guest rooms with minimal environmental footprint.",
+    pros: ["Fast to deploy", "Scalable", "Low disruption to site"],
+    cons: ["Can feel generic if not styled well", "Terrain may need prep"],
+    cost: "$$",
+  },
+  {
+    title: "Cave Cabins (Mountain Cut)",
+    image: "https://images.unsplash.com/photo-1682685797769-481b48222adf",
+    description:
+      "Guest suites carved into the sandstone for ultimate seclusion and mystique.",
+    pros: ["Iconic and immersive", "Integrated into natural site"],
+    cons: ["Costly", "Complex engineering", "Requires regulatory approval"],
+    cost: "$$$",
+  },
+  {
+    title: "Restaurant Pavilion",
+    image: "https://images.unsplash.com/photo-1682685797769-481b48222adf",
+    description:
+      "A small onsite dining experience serving local and wellness-focused cuisine.",
+    pros: ["Adds F&B revenue", "Anchors longer stays"],
+    cons: ["Equipment & staff", "Ongoing operating costs"],
+    cost: "$$$",
+  },
+  {
+    title: "Desert Café / Lookout Lounge",
+    image: "https://images.unsplash.com/photo-1680381792123-676305af82d8",
+    description:
+      "A simple café at a high point or edge to enjoy coffee and views.",
+    pros: [
+      "Light touch",
+      "Emotional highlight",
+      "Lower setup cost than full restaurant",
+    ],
+    cons: ["Limited capacity", "Needs path access"],
+    cost: "$$",
+  },
+  {
+    title: "Wellness Deck / Outdoor Yoga Platform",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+    description: "A dedicated zone for yoga, meditation, or silent reflection.",
+    pros: ["Fits wellness retreat vision", "Low build cost"],
+    cons: ["Needs shade", "Noise buffer if shared"],
+    cost: "$",
+  },
+  {
+    title: "Lighting Pathways",
+    image:
+      "https://images.unsplash.com/photo-1602406371794-96bcae876a95?q=80&w=1600&h=1000&auto=format&fit=crop&crop=bottom",
+    description: "Discreet lighting along key walking routes.",
+    pros: ["Safety", "Enhances atmosphere", "Night usability"],
+    cons: ["Needs power routing", "Can disrupt mood if overdone"],
+    cost: "$",
+  },
+  {
+    title: "Spa",
+    image: "https://images.unsplash.com/photo-1583416750470-965b2707b355",
+    description:
+      "A tranquil space offering massage, hammam, or holistic treatments tailored to the desert environment.",
+    pros: [
+      "Premium wellness offering",
+      "Strong differentiation for retreat market",
+    ],
+    cons: ["High setup and operational cost", "Requires specialist staff"],
+    cost: "$$$",
+  },
+  {
+    title: "Lounge",
+    image: "https://images.unsplash.com/photo-1661882785349-359eddae3d4b",
+    description:
+      "A shaded indoor-outdoor space for socializing, reading, and relaxing.",
+    pros: ["Versatile space", "Can double as reception or cultural point"],
+    cons: ["Needs styling and maintenance"],
+    cost: "$$",
+  },
+  {
+    title: "Observatory",
+    image: "https://images.unsplash.com/photo-1515705576963-95cad62945b6",
+    description:
+      "An open-sky or telescope-equipped observatory for desert stargazing experiences.",
+    pros: ["Memorable and unique", "No light pollution in region"],
+    cons: ["Limited use in cloudy conditions", "Specialist setup"],
+    cost: "$$",
+  },
+  {
+    title: "Camel Rides",
+    image: "https://images.unsplash.com/photo-1461237439866-5a557710c921",
+    description:
+      "Offer short or scenic camel rides for cultural immersion and slow exploration.",
+    pros: ["Authentic and photo-friendly", "Can be run on demand"],
+    cons: ["Requires animal care and staff", "Limited appeal for some guests"],
+    cost: "$$",
+  },
+  {
+    title: "Swing or Hammock Spots",
+    image: "https://images.unsplash.com/photo-1600502610238-e1bb4924381d ",
+    description:
+      "Strategic placement of swings or hammocks for relaxation and photo moments.",
+    pros: ["Low cost", "Great for Instagram and stillness"],
+    cons: ["Needs thoughtful placement", "Can look kitsch if overused"],
+    cost: "$",
+  },
+  {
+    title: "Handicraft Learning Space",
+    image: "https://images.unsplash.com/photo-1650826126169-c16bf0ed88de",
+    description:
+      "A place where guests can learn or observe local craft traditions like weaving or pottery.",
+    pros: ["Deepens cultural connection", "Supports local artisans"],
+    cons: ["Needs coordination with experts", "Varies with guest interest"],
+    cost: "$$",
+  },
+  {
+    title: "Outdoor Theater",
+    image: "https://images.unsplash.com/photo-1721733258290-cac1a9204564",
+    description:
+      "A terraced or open-floor seating area for outdoor talks, screenings, or performances.",
+    pros: ["Flexible use", "Event or gathering anchor"],
+    cons: ["Needs sound setup", "Limited use in wind or heat"],
+    cost: "$$",
+  },
+  {
+    title: "Bedouin Tent Experience",
+    image: "https://images.unsplash.com/photo-1611313053536-065b4fbaa40c",
+    description:
+      "A traditional-style tent setup for dining, storytelling, or hosted gatherings.",
+    pros: ["Culturally immersive", "Flexible use for groups or evenings"],
+    cons: [
+      "Needs authentic decor and curation",
+      "Can be overdone if not genuine",
+    ],
+    cost: "$$",
+  },
+];
+
+export default function SiteAdditions({}: Props) {
+  return (
+    <section className="px-8 py-16 bg-neutral-950 text-white">
+      <h2 className="text-4xl font-bold mb-12 text-center">
+        Potential Site Additions
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        {siteAdditions.map((item, i) => (
+          <div
+            key={i}
+            className="bg-neutral-900 rounded-xl shadow-lg overflow-hidden border border-white/10">
+            <img
+              src={item.image}
+              alt={item.title}
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-6">
+              <div className="flex justify-between items-center mb-2">
+                <h3 className="text-xl font-semibold">{item.title}</h3>
+                <span className="bg-amber-500 text-black text-xs font-bold px-3 py-1 rounded-full">
+                  {item.cost}
+                </span>
+              </div>
+              <p className="text-white/80 text-sm mb-4">{item.description}</p>
+
+              <div className="mb-2">
+                <div className="flex flex-wrap gap-2">
+                  {item.pros.map((pro, idx) => (
+                    <span
+                      key={idx}
+                      className="text-xs bg-emerald-700/40 text-emerald-200 px-2 py-1 rounded-full">
+                      &#43;&nbsp;{pro}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-3">
+                <div className="flex flex-wrap gap-2">
+                  {item.cons.map((con, idx) => (
+                    <span
+                      key={idx}
+                      className="text-xs bg-rose-700/40 text-rose-200 px-2 py-1 rounded-full">
+                      &#8722;&nbsp;{con}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
