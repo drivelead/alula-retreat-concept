@@ -1,20 +1,22 @@
 import React from "react";
 import SectionWrapper from "./section-snap";
 import ImagesMarquee from "./images-marquee";
+import { serverSideTranslation } from "@/lib/i18n";
+import { Locale } from "@/lib/types/i18n";
 
-type Props = {};
+type Props = { locale: Locale };
 
-export default function Section3({}: Props) {
+export default async function Section3({ locale }: Props) {
+  const { t } = await serverSideTranslation(locale, ["home"], {
+    keyPrefix: "content.section-3",
+  });
   return (
     <SectionWrapper
       id="features"
-      className="bg-gradient-to-tl from-lime-900 to-lime-950 text-white relative flex flex-col items-center justify-center">
-      <h1 className="text-6xl font-bold">
-        Natural Drama. Foundational Potential.
-      </h1>
-      <p className="opacity-80 uppercase font-bold mb-12">
-        A rich mix of terrain, views, and greenery — ready for transformation.
-      </p>
+      className="bg-gradient-to-tl from-lime-900 to-lime-950 text-white relative flex flex-col items-center justify-center"
+    >
+      <h1 className="text-6xl font-bold">{t("title")}</h1>
+      <p className="opacity-80 uppercase font-bold mb-12">{t("description")}</p>
 
       <div className="w-full">
         <ImagesMarquee

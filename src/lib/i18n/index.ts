@@ -72,4 +72,6 @@ export async function serverSideTranslation(
   return await initTranslations(locale, namespaces, options);
 }
 
-export { i18nConfig };
+import Trans from "@/components/i18n/trans-client";
+
+export { i18nConfig, Trans };
