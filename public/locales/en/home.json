@@ -1,73 +1,4 @@
-{
-  "meta": {
-    "title": "AlUla Retreat",
-    "description": "A unique and immersive experience for adventurers and nature lovers."
-  },
-  "content": {
-    "section-1": {
-      "title": "Hegra-AlUla Retreat Development",
-      "description": "Development Vision, Benchmark Inspiration, and Naming"
-    }
-  },
-  "additions": [
-  {
-    "title": "Land Survey",
-    "descriptionPoints": [
-      "Commission a full geospatial and topographic survey.",
-      "Identify usable land vs. protected or unbuildable zones.",
-      "Mark key natural assets: rock formations, palm clusters, elevation shifts, and drainage paths.",
-      "Output: site boundary map, elevation model, and zone suitability plan."
-    ]
-  },
-  {
-    "title": "Business Plan",
-    "descriptionPoints": [
-      "Define the retreat’s accommodation mix (number of units, type: carved rooms, villas, tents, suites).",
-      "Determine sizes, privacy levels, and access logic.",
-      "Define scope of F&B (restaurant, café, in-room dining).",
-      "Estimate average daily rate (ADR), occupancy targets, and projected annual revenue.",
-      "Clarify guest archetypes and length of stay assumptions."
-    ]
-  },
-  {
-    "title": "Financial Modeling",
-    "descriptionPoints": [
-      "Estimate capital expenditure (site works, unit construction, infrastructure).",
-      "Estimate operational expenditure (staffing, maintenance, utilities, marketing).",
-      "Build 3–5 year P&L projections.",
-      "Run sensitivity analysis on occupancy and ADR scenarios.",
-      "Determine investment needed and possible break-even timeframe."
-    ]
-  },
-  {
-    "title": "Concept Design",
-    "descriptionPoints": [
-      "Translate guest experience into site layout: arrival, movement, privacy, views, noise buffer zones.",
-      "Define unit positioning, F&B locations, paths, pool, shared facilities.",
-      "Confirm phasing logic — Phase 1 vs Phase 2 rollout.",
-      "Align architecture with identity (materials, tones, local inspiration)."
-    ]
-  }],
-  {
-    "title": "Operational Model",
-    "descriptionPoints": [
-      "Decide structure: owner-operated, leased to brand, JV with hospitality group, or hybrid.",
-      "Define required skillsets for operations team.",
-      "Clarify brand and guest service standards from day one.",
-      "Align the operator model with target guest expectations."
-    ]
-  }
-  {
-    "title": "Construction & Launch",
-    "descriptionPoints": [
-      "Execute entry road and arrival zone enhancement.",
-      "Construct initial pool, footpaths, and 2–4 showcase units.",
-      "Install lighting, irrigation, and signage.",
-      "Prepare brand, website, and early content for soft launch or pre-bookings.",
-      "Define post-launch measurement KPIs and guest feedback tools.",
-    ],
-  },
-  "additions": [
+{ "additions": [
     {
     "title": "Common Swimming Pool",
     "image": "https://images.unsplash.com/photo-1576504446184-d4ce8e6f2adf",
@@ -216,5 +147,4 @@
     ],
     "cost": "$$"
   }
-]
-}
+]}
