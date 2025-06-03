@@ -13,13 +13,11 @@ const rotations = [
 export default function Gallery({ images }: { images: string[] }) {
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 bg-red-500">
-      {images.map((img) => {
+      {images.map((img, i) => {
         const randomRotation =
           rotations[Math.floor(Math.random() * rotations.length)];
         return (
-          <div
-            key={img}
-            className={`transform p-3 bg-red-500 ${randomRotation}`}>
+          <div key={i} className={`transform p-3 bg-red-500 ${randomRotation}`}>
             <Image
               src={`/gallery/${img}`}
               alt={img}
