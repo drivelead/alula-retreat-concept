@@ -3,6 +3,7 @@ import SectionWrapper from "./section-snap";
 import ImagesMarquee from "./images-marquee";
 import { serverSideTranslation } from "@/lib/i18n";
 import { Locale } from "@/lib/types/i18n";
+import { getDirection } from "@/lib/utils";
 
 type Props = { locale: Locale };
 
@@ -18,8 +19,9 @@ export default async function Section3({ locale }: Props) {
       <h1 className="text-6xl font-bold">{t("title")}</h1>
       <p className="opacity-80 uppercase font-bold mb-12">{t("description")}</p>
 
-      <div className="w-full">
+      <div className="w-full" dir="ltr">
         <ImagesMarquee
+          direction={getDirection(locale) === "rtl" ? "right" : "left"}
           images={[
             {
               src: "/photos/location/dji_fly_20250415_075850_952_1744694357791_photo_optimized.JPG",
