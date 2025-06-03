@@ -9,10 +9,8 @@ const rotations = [
   "rotate-0",
   "rotate-1",
   "rotate-2",
-  "rotate-3",
   "-rotate-1",
   "-rotate-2",
-  "-rotate-3",
 ];
 
 type Props = { locale: Locale };
