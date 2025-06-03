@@ -35,16 +35,17 @@ export default function Hero() {
       <div className="absolute top-0 h-full w-full overflow-hidden">
         <Image
           ref={bgRef}
-          src="/photos/neom/neom--RlktmDy3Ec-unsplash.jpg"
+          src="/photos/gallery/IMG_2932.jpg"
           width={1920}
           height={1080}
           alt="Hegra-AlUla Retreat Development"
-          className="scale-150 object-cover h-full w-full will-change-transform"
+          className="scale-140 object-cover h-full w-full will-change-transform"
         />
       </div>
+      <div className="absolute top-0 h-full w-full bg-radial bg-radial-[at_0%_0%] from-yellow-300 via-yellow-400 to-amber-600 opacity-20" />
       <div className="absolute top-0 h-full w-full flex flex-col items-center justify-center bg-gradient-to-t from-neutral-800 via-neutral-800/10 via-20%">
         <h1 className="anim text-6xl font-bold">{t("title")}</h1>
-        <p className="anim opacity-60 tracking-wider uppercase font-bold">
+        <p className="anim text-2xl opacity-60 tracking-wider rtl:tracking-normal uppercase font-medium">
           {t("description")}
         </p>
       </div>

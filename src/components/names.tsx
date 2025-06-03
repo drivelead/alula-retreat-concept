@@ -25,24 +25,30 @@ export default async function Names({ locale }: Props) {
       id="section-5"
       className="bg-emerald-900 text-white relative">
       <div className="w-full h-full">
-        <div className="p-24">
-          <h1 className="anim text-6xl font-bold">{t("title")}</h1>
-          <p className="anim opacity-80 uppercase font-bold mb-12">
+        <div className="p-6 py-24 lg:p-24">
+          <h1 className="anim text-5xl font-bold">{t("title")}</h1>
+          <p className="anim opacity-80 uppercase font-bold mb-12 ">
             {t("description")}
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 lg:grid-cols-5 gap-6 px-24">
+        <div className="">
           {proposedNames.map((proposedName) => (
             <div
-              className="anim border-emerald-500 bg-emerald-950 border-2 rounded-xl p-6 space-y-4 text-center"
+              className="anim border-emerald-500 text-center"
               key={proposedName.nameEn}>
-              <h2 className="text-4xl font-black">{proposedName.nameAr}</h2>
-              <p className="uppercase tracking-[0.2rem] font-bold">
-                {proposedName.nameEn}
+              <div>
+                <h2 className="quiverleaf text-[3em] lg:text-[10em]/40 font-black">
+                  {proposedName.nameAr}
+                </h2>
+                <p className="uppercase text-[2em]/10 tracking-[1.2rem] font-bold">
+                  {proposedName.nameEn}
+                </p>
+              </div>
+              <p className="quiverleaf font-light text-4xl">
+                {proposedName.meaningAr}
               </p>
-              <p className="font-light text-lg/6">{proposedName.meaningAr}</p>
-              <p className="quiverleaf text-lg/5">{proposedName.meaningEn}</p>
-              <p className="text-xs/4 text-start opacity-50 font-light">
+              <p className="quiverleaf text-4xl">{proposedName.meaningEn}</p>
+              <p className="text-lg opacity-50 font-light">
                 {proposedName.commentEn}
               </p>
             </div>

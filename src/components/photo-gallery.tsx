@@ -27,7 +27,9 @@ export default async function PhotoGallery({ locale }: Props) {
   return (
     <section className="bg-neutral-500 text-white">
       <div className="p-24">
-        <h1 className="anim text-6xl font-bold">{t("title")}</h1>
+        <h1 className="anim text-6xl font-bold bg-gradient-to-l from-yellow-400 via-yellow-500 to-amber-600 inline-block bg-clip-text text-transparent">
+          {t("title")}
+        </h1>
         <p className="anim opacity-60 tracking-wider uppercase font-bold">
           {t("description")}
         </p>
@@ -38,7 +40,7 @@ export default async function PhotoGallery({ locale }: Props) {
             rotations[Math.floor(Math.random() * rotations.length)];
           return (
             <div
-              className={`w-full h-auto aspect-video transform p-1 bg-gradient-to-br from-neutral-50 to-white shadow-md/20 ${randomRotation} hover:rotate-0 transition-all duration-200 ease-in-out hover:z-50 hover:shadow-lg/30 hover:scale-150`}>
+              className={`w-full h-auto aspect-video transform p-1 bg-gradient-to-br from-neutral-50 to-white shadow-md/20 ${randomRotation} hover:rotate-0 transition-all duration-200 ease-in-out hover:z-50 hover:shadow-lg/30 hover:scale-105`}>
               <Image
                 key={img}
                 loading="lazy"
