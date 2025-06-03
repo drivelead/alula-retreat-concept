@@ -54,8 +54,7 @@ export default function Roadmap({ locale }: Props) {
   return (
     <section
       ref={sectionRef}
-      className="h-screen w-full overflow-hidden bg-amber-800 text-white"
-    >
+      className="h-screen w-full overflow-hidden bg-amber-800 text-white">
       <div className="p-24">
         <h1 className="anim text-6xl font-bold">{t("title")}</h1>
         <p className="anim opacity-80 uppercase font-bold mb-12">
@@ -67,13 +66,11 @@ export default function Roadmap({ locale }: Props) {
 
         <div
           ref={containerRef}
-          className="relative flex items-top space-x-24 rtl:space-x-reverse z-10 translate-x-24 rtl:-translate-x-24"
-        >
+          className="relative flex items-top space-x-24 rtl:space-x-reverse z-10 translate-x-24 rtl:-translate-x-24">
           {roadmap.map((phase, index) => (
             <div
               key={index}
-              className="roadmap-phase w-96 pt-12 ps-6 flex-shrink-0 snap-center relative"
-            >
+              className="roadmap-phase w-96 pt-12 ps-6 flex-shrink-0 snap-center relative">
               {/* Number badge */}
               <div className="absolute top-0 start-0 w-12 h-12 text-3xl -translate-y-1/2 z-20 bg-amber-600 text-white flex items-center justify-center rounded-full font-medium">
                 {(index + 1).toLocaleString(localesEqv[locale])}
