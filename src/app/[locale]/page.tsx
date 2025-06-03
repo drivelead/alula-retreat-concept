@@ -38,7 +38,7 @@ export default async function Home({ params }: Props) {
           <Section3 locale={locale} />
           <Names locale={locale} />
           <SiteAdditions locale={locale} />
-          <Roadmap />
+          <Roadmap locale={locale} />
           <AppendixA1 locale={locale} />
           <AppendixA2 locale={locale} />
           <PhotoGallery locale={locale} />
