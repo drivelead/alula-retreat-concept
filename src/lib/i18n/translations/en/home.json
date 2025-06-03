@@ -109,7 +109,7 @@
       "options": [
         {
           "title": "Common Swimming Pool",
-          "image": "https://images.unsplash.com/photo-1576504446184-d4ce8e6f2adf",
+          "image": "https://images.unsplash.com/photo-1576504446184-d4ce8e6f2adf?w=1000&fit=max",
           "description": "A shared pool for guests to cool off and gather, potentially near the palm grove.",
           "pros": [
             "Strong guest appeal",
@@ -124,7 +124,7 @@
         },
         {
           "title": "Prefab Accommodation Cabins",
-          "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf",
+          "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf?w=1000&fit=max",
           "description": "High-quality prefabricated guest rooms with minimal environmental footprint.",
           "pros": ["Fast to deploy", "Scalable", "Low disruption to site"],
           "cons": [
@@ -135,7 +135,7 @@
         },
         {
           "title": "Cave Cabins (Mountain Cut)",
-          "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf",
+          "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf?w=1000&fit=max",
           "description": "Guest suites carved into the sandstone for ultimate seclusion and mystique.",
           "pros": ["Iconic and immersive", "Integrated into natural site"],
           "cons": [
@@ -147,7 +147,7 @@
         },
         {
           "title": "Restaurant Pavilion",
-          "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf",
+          "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf?w=1000&fit=max",
           "description": "A small onsite dining experience serving local and wellness-focused cuisine.",
           "pros": ["Adds F&B revenue", "Anchors longer stays"],
           "cons": ["Equipment & staff", "Ongoing operating costs"],
@@ -155,7 +155,7 @@
         },
         {
           "title": "Desert Café / Lookout Lounge",
-          "image": "https://images.unsplash.com/photo-1680381792123-676305af82d8",
+          "image": "https://images.unsplash.com/photo-1680381792123-676305af82d8?w=1000&fit=max",
           "description": "A simple café at a high point or edge to enjoy coffee and views.",
           "pros": [
             "Light touch",
@@ -167,7 +167,7 @@
         },
         {
           "title": "Wellness Deck / Outdoor Yoga Platform",
-          "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+          "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&fit=max",
           "description": "A dedicated zone for yoga, meditation, or silent reflection.",
           "pros": ["Fits wellness retreat vision", "Low build cost"],
           "cons": ["Needs shade", "Noise buffer if shared"],
@@ -175,7 +175,7 @@
         },
         {
           "title": "Lighting Pathways",
-          "image": "https://images.unsplash.com/photo-1602406371794-96bcae876a95?q=80&w=1600&h=1000&auto=format&fit=crop&crop=bottom",
+          "image": "https://images.unsplash.com/photo-1602406371794-96bcae876a95?w=1000&fit=max",
           "description": "Discreet lighting along key walking routes.",
           "pros": ["Safety", "Enhances atmosphere", "Night usability"],
           "cons": ["Needs power routing", "Can disrupt mood if overdone"],
@@ -183,7 +183,7 @@
         },
         {
           "title": "Spa",
-          "image": "https://images.unsplash.com/photo-1583416750470-965b2707b355",
+          "image": "https://images.unsplash.com/photo-1583416750470-965b2707b355?w=1000&fit=max",
           "description": "A tranquil space offering massage, hammam, or holistic treatments tailored to the desert environment.",
           "pros": [
             "Premium wellness offering",
@@ -197,7 +197,7 @@
         },
         {
           "title": "Lounge",
-          "image": "https://images.unsplash.com/photo-1661882785349-359eddae3d4b",
+          "image": "https://images.unsplash.com/photo-1661882785349-359eddae3d4b?w=1000&fit=max",
           "description": "A shaded indoor-outdoor space for socializing, reading, and relaxing.",
           "pros": [
             "Versatile space",
@@ -208,7 +208,7 @@
         },
         {
           "title": "Observatory",
-          "image": "https://images.unsplash.com/photo-1515705576963-95cad62945b6",
+          "image": "https://images.unsplash.com/photo-1515705576963-95cad62945b6?w=1000&fit=max",
           "description": "An open-sky or telescope-equipped observatory for desert stargazing experiences.",
           "pros": ["Memorable and unique", "No light pollution in region"],
           "cons": ["Limited use in cloudy conditions", "Specialist setup"],
@@ -216,7 +216,7 @@
         },
         {
           "title": "Camel Rides",
-          "image": "https://images.unsplash.com/photo-1461237439866-5a557710c921",
+          "image": "https://images.unsplash.com/photo-1461237439866-5a557710c921?w=1000&fit=max",
           "description": "Offer short or scenic camel rides for cultural immersion and slow exploration.",
           "pros": ["Authentic and photo-friendly", "Can be run on demand"],
           "cons": [
@@ -227,7 +227,7 @@
         },
         {
           "title": "Swing or Hammock Spots",
-          "image": "https://images.unsplash.com/photo-1600502610238-e1bb4924381d ",
+          "image": "https://images.unsplash.com/photo-1600502610238-e1bb4924381d?w=1000&fit=max",
           "description": "Strategic placement of swings or hammocks for relaxation and photo moments.",
           "pros": ["Low cost", "Great for Instagram and stillness"],
           "cons": ["Needs thoughtful placement", "Can look kitsch if overused"],
@@ -235,7 +235,7 @@
         },
         {
           "title": "Handicraft Learning Space",
-          "image": "https://images.unsplash.com/photo-1650826126169-c16bf0ed88de",
+          "image": "https://images.unsplash.com/photo-1650826126169-c16bf0ed88de?w=1000&fit=max",
           "description": "A place where guests can learn or observe local craft traditions like weaving or pottery.",
           "pros": ["Deepens cultural connection", "Supports local artisans"],
           "cons": [
@@ -246,7 +246,7 @@
         },
         {
           "title": "Outdoor Theater",
-          "image": "https://images.unsplash.com/photo-1721733258290-cac1a9204564",
+          "image": "https://images.unsplash.com/photo-1721733258290-cac1a9204564?w=1000&fit=max",
           "description": "A terraced or open-floor seating area for outdoor talks, screenings, or performances.",
           "pros": ["Flexible use", "Event or gathering anchor"],
           "cons": ["Needs sound setup", "Limited use in wind or heat"],
@@ -254,7 +254,7 @@
         },
         {
           "title": "Bedouin Tent Experience",
-          "image": "https://images.unsplash.com/photo-1611313053536-065b4fbaa40c",
+          "image": "https://images.unsplash.com/photo-1611313053536-065b4fbaa40c?w=1000&fit=max",
           "description": "A traditional-style tent setup for dining, storytelling, or hosted gatherings.",
           "pros": [
             "Culturally immersive",
