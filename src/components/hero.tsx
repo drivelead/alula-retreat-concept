@@ -35,7 +35,7 @@ export default function Hero() {
       <div className="absolute top-0 h-full w-full overflow-hidden">
         <Image
           ref={bgRef}
-          src="/photos/neom/neom--RlktmDy3Ec-unsplash.jpg"
+          src="/photos/gallery/IMG_2932.jpg"
           width={1920}
           height={1080}
           alt="Hegra-AlUla Retreat Development"
