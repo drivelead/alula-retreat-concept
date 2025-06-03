@@ -40,9 +40,10 @@ export default async function PhotoGallery({ locale }: Props) {
             rotations[Math.floor(Math.random() * rotations.length)];
           return (
             <div
-              className={`w-full h-auto aspect-video transform p-1 bg-gradient-to-br from-neutral-50 to-white shadow-md/20 ${randomRotation} hover:rotate-0 transition-all duration-200 ease-in-out hover:z-50 hover:shadow-lg/30 hover:scale-105`}>
+              key={img}
+              className={`w-full h-auto aspect-video transform p-1 bg-gradient-to-br from-neutral-50 to-white shadow-md/20 ${randomRotation} hover:rotate-0 transition-all duration-200 ease-in-out hover:z-50 hover:shadow-lg/30 hover:scale-105`}
+            >
               <Image
-                key={img}
                 loading="lazy"
                 src={`/photos/gallery/${img}`}
                 alt={img}
