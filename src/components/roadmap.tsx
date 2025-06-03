@@ -62,13 +62,13 @@ export default function Roadmap() {
 
         <div
           ref={containerRef}
-          className="relative flex items-top space-x-24 z-10 translate-x-24">
+          className="relative flex items-top space-x-24 z-10 translate-x-24 rtl:-translate-x-24">
           {roadmap.map((phase, index) => (
             <div
               key={index}
               className="roadmap-phase w-96 pt-12 ps-6 flex-shrink-0 snap-center relative">
               {/* Number badge */}
-              <div className="absolute top-0 left-0 w-12 h-12 text-3xl -translate-y-1/2 z-20 bg-amber-600 text-white flex items-center justify-center rounded-full font-medium">
+              <div className="absolute top-0 start-0 w-12 h-12 text-3xl -translate-y-1/2 z-20 bg-amber-600 text-white flex items-center justify-center rounded-full font-medium">
                 {index + 1}
               </div>
 
