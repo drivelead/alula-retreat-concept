@@ -3,28 +3,31 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTranslation } from "react-i18next";
+import { Locale } from "@/lib/types/i18n";
+import { getDirection } from "@/lib/utils";
 
 gsap.registerPlugin(ScrollTrigger);
 
-type Props = {};
+type Props = {
+  locale: Locale;
+};
 
 type RoadmapItem = {
   title: string;
   descriptionPoints: string[];
 };
 
-export default function Roadmap() {
+export default function Roadmap({ locale }: Props) {
   const sectionRef = useRef<HTMLElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const { t } = useTranslation("home", {
     keyPrefix: "content.roadmap",
   });
-  const isRTL = typeof window !== "undefined" && document?.dir === "rtl";
 
   useEffect(() => {
     const ctx = gsap.context(() => {
       const items = gsap.utils.toArray(".roadmap-phase");
-      const direction = isRTL ? 1 : -1;
+      const direction = getDirection(locale) === "rtl" ? 1 : -1;
 
       gsap.to(items, {
         xPercent: direction * 100 * (items.length - 1),
@@ -41,7 +44,7 @@ export default function Roadmap() {
     }, sectionRef);
 
     return () => ctx.revert();
-  }, [isRTL]);
+  }, [locale]);
 
   const roadmap = t("map", {
     returnObjects: true,
@@ -62,7 +65,7 @@ export default function Roadmap() {
 
         <div
           ref={containerRef}
-          className="relative flex items-top space-x-24 z-10 translate-x-24 rtl:-translate-x-24">
+          className="relative flex items-top space-x-24 rtl:space-x-reverse z-10 translate-x-24 rtl:-translate-x-24">
           {roadmap.map((phase, index) => (
             <div
               key={index}
