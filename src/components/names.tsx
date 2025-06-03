@@ -36,15 +36,19 @@ export default async function Names({ locale }: Props) {
             <div
               className="anim border-emerald-500 text-center"
               key={proposedName.nameEn}>
-              <h2 className="text-[3em] lg:text-[10em]/40 font-black">
-                {proposedName.nameAr}
-              </h2>
-              <p className="uppercase text-[2em]/10 tracking-[1.2rem] font-bold">
-                {proposedName.nameEn}
+              <div>
+                <h2 className="quiverleaf text-[3em] lg:text-[10em]/40 font-black">
+                  {proposedName.nameAr}
+                </h2>
+                <p className="uppercase text-[2em]/10 tracking-[1.2rem] font-bold">
+                  {proposedName.nameEn}
+                </p>
+              </div>
+              <p className="quiverleaf font-light text-4xl">
+                {proposedName.meaningAr}
               </p>
-              <p className="font-light text-lg/6">{proposedName.meaningAr}</p>
-              <p className="quiverleaf text-lg/5">{proposedName.meaningEn}</p>
-              <p className="text-xs/4 opacity-50 font-light">
+              <p className="quiverleaf text-4xl">{proposedName.meaningEn}</p>
+              <p className="text-lg opacity-50 font-light">
                 {proposedName.commentEn}
               </p>
             </div>
