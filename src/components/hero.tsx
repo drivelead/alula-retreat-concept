@@ -43,9 +43,9 @@ export default function Hero() {
         />
       </div>
       <div className="absolute top-0 h-full w-full bg-radial bg-radial-[at_0%_0%] from-yellow-300 via-yellow-400 to-amber-600 opacity-20" />
-      <div className="absolute top-0 h-full w-full flex flex-col items-center justify-center bg-gradient-to-t from-neutral-800 via-neutral-800/10 via-20%">
-        <h1 className="anim text-6xl font-bold">{t("title")}</h1>
-        <p className="anim text-2xl opacity-60 tracking-wider rtl:tracking-normal uppercase font-medium">
+      <div className="absolute top-0 h-full w-full flex flex-col items-center justify-center bg-gradient-to-t from-amber-950 via-amber-800/10 via-20%">
+        <h1 className="anim text-6xl font-bold mb-4">{t("title")}</h1>
+        <p className="anim text-4xl tracking-wider rtl:tracking-normal uppercase font-text">
           {t("description")}
         </p>
       </div>

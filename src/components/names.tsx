@@ -11,8 +11,7 @@ const proposedNames = [
     nameEn: "Hegra Views",
     meaningAr: "الحِجر: المنطقة الصخرية. فيوز: الإطلالات",
     meaningEn: "The views of Al-Hijr",
-    commentEn:
-      "Feels contemporary, clear, and descriptive — ideal for a destination known for scenery.",
+    commentEn: "hegra-views.com",
   },
 ];
 
@@ -36,19 +35,16 @@ export default async function Names({ locale }: Props) {
             <div
               className="anim border-emerald-500 text-center"
               key={proposedName.nameEn}>
-              <div>
-                <h2 className="quiverleaf text-[3em] lg:text-[10em]/40 font-black">
+              <div className="m-12">
+                <h2 className="quiverleaf text-[3em] lg:text-[10em]/50 font-black">
                   {proposedName.nameAr}
                 </h2>
                 <p className="uppercase text-[2em]/10 tracking-[1.2rem] font-bold">
                   {proposedName.nameEn}
                 </p>
               </div>
-              <p className="quiverleaf font-light text-4xl">
-                {proposedName.meaningAr}
-              </p>
-              <p className="quiverleaf text-4xl">{proposedName.meaningEn}</p>
-              <p className="text-lg opacity-50 font-light">
+
+              <p className="text-4xl tracking-wider opacity-50 font-light">
                 {proposedName.commentEn}
               </p>
             </div>
