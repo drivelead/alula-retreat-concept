@@ -7,217 +7,304 @@
     "section-1": {
       "title": "Hegra-AlUla Retreat Development",
       "description": "Development Vision, Benchmark Inspiration, and Naming"
-    }
-  },
-  "additions": {
+    },
+    "opportunity": {
+      "title": "The Opportunity",
+      "description": "A Rare Canvas at the Heart of Hegra, near AlUla",
+      "items": [
+        "A distinctive plot with natural beauty, strategic location and untapped potential",
+        "Approximately 1 km<0>2</0> of privately owned land",
+        "Located minutes from Hegra and AlUla&apos;s core tourism zone",
+        "Features three striking sandstone formations, lush palm groves, and open desert views",
+        "Currently underutilized, but with the foundations for a transformational high-end retreat"
+      ]
+    },
+    "section-3": {
+      "title": "Natural Drama. Foundational Potential.",
+      "description": "A rich mix of terrain, views, and greenery — ready for transformation."
+    },
+    "section-4": {
+      "title": "Who Are We Building This For?",
+      "description": "Understanding our ideal traveler will guide our every decision",
+      "items": [
+        "A distinctive plot with natural beauty, strategic location and untapped potential",
+        "Approximately 1 km<0>2</0> of privately owned land",
+        "Located minutes from Hegra and AlUla&apos;s core tourism zone",
+        "Features three striking sandstone formations, lush palm groves, and open desert views",
+        "Currently underutilized, but with the foundations for a transformational high-end retreat"
+      ],
+      "text": "Early thinking leans toward high-end cultural travelers, wellness seekers — those drawn to silence, heritage, and the texture of place.",
+      "text2": "It's about choosing the right guest, and building a place that speaks only to them."
+    },
+    "proposed-names": {
+      "title": "Proposed Names",
+      "description": "A few early ideas inspired by the essence of the place."
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "description": "A few early ideas inspired by the essence of the place.",
+      "map": [
+        {
+          "title": "Land Survey",
+          "descriptionPoints": [
+            "Commission a full geospatial and topographic survey.",
+            "Identify usable land vs. protected or unbuildable zones.",
+            "Mark key natural assets: rock formations, palm clusters, elevation shifts, and drainage paths.",
+            "Output: site boundary map, elevation model, and zone suitability plan."
+          ]
+        },
+        {
+          "title": "Business Plan",
+          "descriptionPoints": [
+            "Define the retreat’s accommodation mix (number of units, type: carved rooms, villas, tents, suites).",
+            "Determine sizes, privacy levels, and access logic.",
+            "Define scope of F&B (restaurant, café, in-room dining).",
+            "Estimate average daily rate (ADR), occupancy targets, and projected annual revenue.",
+            "Clarify guest archetypes and length of stay assumptions."
+          ]
+        },
+        {
+          "title": "Financial Modeling",
+          "descriptionPoints": [
+            "Estimate capital expenditure (site works, unit construction, infrastructure).",
+            "Estimate operational expenditure (staffing, maintenance, utilities, marketing).",
+            "Build 3–5 year P&L projections.",
+            "Run sensitivity analysis on occupancy and ADR scenarios.",
+            "Determine investment needed and possible break-even timeframe."
+          ]
+        },
+        {
+          "title": "Concept Design",
+          "descriptionPoints": [
+            "Translate guest experience into site layout: arrival, movement, privacy, views, noise buffer zones.",
+            "Define unit positioning, F&B locations, paths, pool, shared facilities.",
+            "Confirm phasing logic — Phase 1 vs Phase 2 rollout.",
+            "Align architecture with identity (materials, tones, local inspiration)."
+          ]
+        },
+        {
+          "title": "Operational Model",
+          "descriptionPoints": [
+            "Decide structure: owner-operated, leased to brand, JV with hospitality group, or hybrid.",
+            "Define required skillsets for operations team.",
+            "Clarify brand and guest service standards from day one.",
+            "Align the operator model with target guest expectations."
+          ]
+        },
+        {
+          "title": "Construction & Launch",
+          "descriptionPoints": [
+            "Execute entry road and arrival zone enhancement.",
+            "Construct initial pool, footpaths, and 2–4 showcase units.",
+            "Install lighting, irrigation, and signage.",
+            "Prepare brand, website, and early content for soft launch or pre-bookings.",
+            "Define post-launch measurement KPIs and guest feedback tools."
+          ]
+        }
+      ]
+    },
 
-  },
-  "roadmap": {
-{
-    "title": "Land Survey",
-    "descriptionPoints": [
-      "Commission a full geospatial and topographic survey.",
-      "Identify usable land vs. protected or unbuildable zones.",
-      "Mark key natural assets: rock formations, palm clusters, elevation shifts, and drainage paths.",
-      "Output: site boundary map, elevation model, and zone suitability plan.",
-    ]
-  },
-  {
-    "title": "Business Plan",
-    "descriptionPoints": [
-      "Define the retreat’s accommodation mix (number of units, type: carved rooms, villas, tents, suites).",
-      "Determine sizes, privacy levels, and access logic.",
-      "Define scope of F&B (restaurant, café, in-room dining).",
-      "Estimate average daily rate (ADR), occupancy targets, and projected annual revenue.",
-      "Clarify guest archetypes and length of stay assumptions.",
-    ]
-  },
-  {
-    "title": "Financial Modeling",
-    "descriptionPoints": [
-      "Estimate capital expenditure (site works, unit construction, infrastructure).",
-      "Estimate operational expenditure (staffing, maintenance, utilities, marketing).",
-      "Build 3–5 year P&L projections.",
-      "Run sensitivity analysis on occupancy and ADR scenarios.",
-      "Determine investment needed and possible break-even timeframe.",
-    ]
-  },
-  {
-    "title": "Concept Design",
-    "descriptionPoints": [
-      "Translate guest experience into site layout: arrival, movement, privacy, views, noise buffer zones.",
-      "Define unit positioning, F&B locations, paths, pool, shared facilities.",
-      "Confirm phasing logic — Phase 1 vs Phase 2 rollout.",
-      "Align architecture with identity (materials, tones, local inspiration).",
-    ]
-  },
-  {
-    "title": "Operational Model",
-    "descriptionPoints": [
-      "Decide structure: owner-operated, leased to brand, JV with hospitality group, or hybrid.",
-      "Define required skillsets for operations team.",
-      "Clarify brand and guest service standards from day one.",
-      "Align the operator model with target guest expectations.",
-    ]
-  },
-  {
-    "title": "Construction & Launch",
-    "descriptionPoints": [
-      "Execute entry road and arrival zone enhancement.",
-      "Construct initial pool, footpaths, and 2–4 showcase units.",
-      "Install lighting, irrigation, and signage.",
-      "Prepare brand, website, and early content for soft launch or pre-bookings.",
-      "Define post-launch measurement KPIs and guest feedback tools.",
-    ]
-  },
-  "additions": [
-    {
-    "title": "Common Swimming Pool",
-    "image": "https://images.unsplash.com/photo-1576504446184-d4ce8e6f2adf",
-    "description":
-      "A shared pool for guests to cool off and gather, potentially near the palm grove.",
-    "pros": [
-      "Strong guest appeal",
-      "Anchors site visually",
-      "Enhances relaxation narrative"
-    ],
-    "cons": ["Requires water management", "High visibility impacts privacy"],
-    "cost": "$$"
-  },
-  {
-    "title": "Prefab Accommodation Cabins",
-    "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf",
-    "description":
-      "High-quality prefabricated guest rooms with minimal environmental footprint.",
-    "pros": ["Fast to deploy", "Scalable", "Low disruption to site"],
-    "cons": ["Can feel generic if not styled well", "Terrain may need prep"],
-    "cost": "$$"
-  },
-  {
-    "title": "Cave Cabins (Mountain Cut)",
-    "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf",
-    "description":
-      "Guest suites carved into the sandstone for ultimate seclusion and mystique.",
-    "pros": ["Iconic and immersive", "Integrated into natural site"],
-    "cons": ["Costly", "Complex engineering", "Requires regulatory approval"],
-    "cost": "$$$"
-  },
-  {
-    "title": "Restaurant Pavilion",
-    "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf",
-    "description":
-      "A small onsite dining experience serving local and wellness-focused cuisine.",
-    "pros": ["Adds F&B revenue", "Anchors longer stays"],
-    "cons": ["Equipment & staff", "Ongoing operating costs"],
-    "cost": "$$$"
-  },
-  {
-    "title": "Desert Café / Lookout Lounge",
-    "image": "https://images.unsplash.com/photo-1680381792123-676305af82d8",
-    "description":
-      "A simple café at a high point or edge to enjoy coffee and views.",
-    "pros": [
-      "Light touch",
-      "Emotional highlight",
-      "Lower setup cost than full restaurant"
-    ],
-    "cons": ["Limited capacity", "Needs path access"],
-    "cost": "$$"
-  },
-  {
-    "title": "Wellness Deck / Outdoor Yoga Platform",
-    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
-    "description": "A dedicated zone for yoga, meditation, or silent reflection.",
-    "pros": ["Fits wellness retreat vision", "Low build cost"],
-    "cons": ["Needs shade", "Noise buffer if shared"],
-    "cost": "$"
-  },
-  {
-    "title": "Lighting Pathways",
-    "image":
-      "https://images.unsplash.com/photo-1602406371794-96bcae876a95?q=80&w=1600&h=1000&auto=format&fit=crop&crop=bottom",
-    "description": "Discreet lighting along key walking routes.",
-    "pros": ["Safety", "Enhances atmosphere", "Night usability"],
-    "cons": ["Needs power routing", "Can disrupt mood if overdone"],
-    "cost": "$"
-  },
-  {
-    "title": "Spa",
-    "image": "https://images.unsplash.com/photo-1583416750470-965b2707b355",
-    "description":
-      "A tranquil space offering massage, hammam, or holistic treatments tailored to the desert environment.",
-    "pros": [
-      "Premium wellness offering",
-      "Strong differentiation for retreat market"
-    ],
-    "cons": ["High setup and operational cost", "Requires specialist staff"],
-    "cost": "$$$"
-  },
-  {
-    "title": "Lounge",
-    "image": "https://images.unsplash.com/photo-1661882785349-359eddae3d4b",
-    "description":
-      "A shaded indoor-outdoor space for socializing, reading, and relaxing.",
-    "pros": ["Versatile space", "Can double as reception or cultural point"],
-    "cons": ["Needs styling and maintenance"],
-    "cost": "$$"
-  },
-  {
-    "title": "Observatory",
-    "image": "https://images.unsplash.com/photo-1515705576963-95cad62945b6",
-    "description":
-      "An open-sky or telescope-equipped observatory for desert stargazing experiences.",
-    "pros": ["Memorable and unique", "No light pollution in region"],
-    "cons": ["Limited use in cloudy conditions", "Specialist setup"],
-    "cost": "$$"
-  },
-  {
-    "title": "Camel Rides",
-    "image": "https://images.unsplash.com/photo-1461237439866-5a557710c921",
-    "description":
-      "Offer short or scenic camel rides for cultural immersion and slow exploration.",
-    "pros": ["Authentic and photo-friendly", "Can be run on demand"],
-    "cons": ["Requires animal care and staff", "Limited appeal for some guests"],
-    "cost": "$$"
-  },
-  {
-    "title": "Swing or Hammock Spots",
-    "image": "https://images.unsplash.com/photo-1600502610238-e1bb4924381d ",
-    "description":
-      "Strategic placement of swings or hammocks for relaxation and photo moments.",
-    "pros": ["Low cost", "Great for Instagram and stillness"],
-    "cons": ["Needs thoughtful placement", "Can look kitsch if overused"],
-    "cost": "$"
-  },
-  {
-    "title": "Handicraft Learning Space",
-    "image": "https://images.unsplash.com/photo-1650826126169-c16bf0ed88de",
-    "description":
-      "A place where guests can learn or observe local craft traditions like weaving or pottery.",
-    "pros": ["Deepens cultural connection", "Supports local artisans"],
-    "cons": ["Needs coordination with experts", "Varies with guest interest"],
-    "cost": "$$"
-  },
-  {
-    "title": "Outdoor Theater",
-    "image": "https://images.unsplash.com/photo-1721733258290-cac1a9204564",
-    "description":
-      "A terraced or open-floor seating area for outdoor talks, screenings, or performances.",
-    "pros": ["Flexible use", "Event or gathering anchor"],
-    "cons": ["Needs sound setup", "Limited use in wind or heat"],
-    "cost": "$$"
-  },
-  {
-    "title": "Bedouin Tent Experience",
-    "image": "https://images.unsplash.com/photo-1611313053536-065b4fbaa40c",
-    "description":
-      "A traditional-style tent setup for dining, storytelling, or hosted gatherings.",
-    "pros": ["Culturally immersive", "Flexible use for groups or evenings"],
-    "cons": [
-      "Needs authentic decor and curation",
-      "Can be overdone if not genuine"
-    ],
-    "cost": "$$"
+    "site-additions": {
+      "title": "Potential Site Additions",
+      "options": [
+        {
+          "title": "Common Swimming Pool",
+          "image": "https://images.unsplash.com/photo-1576504446184-d4ce8e6f2adf",
+          "description": "A shared pool for guests to cool off and gather, potentially near the palm grove.",
+          "pros": [
+            "Strong guest appeal",
+            "Anchors site visually",
+            "Enhances relaxation narrative"
+          ],
+          "cons": [
+            "Requires water management",
+            "High visibility impacts privacy"
+          ],
+          "cost": "$$"
+        },
+        {
+          "title": "Prefab Accommodation Cabins",
+          "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf",
+          "description": "High-quality prefabricated guest rooms with minimal environmental footprint.",
+          "pros": ["Fast to deploy", "Scalable", "Low disruption to site"],
+          "cons": [
+            "Can feel generic if not styled well",
+            "Terrain may need prep"
+          ],
+          "cost": "$$"
+        },
+        {
+          "title": "Cave Cabins (Mountain Cut)",
+          "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf",
+          "description": "Guest suites carved into the sandstone for ultimate seclusion and mystique.",
+          "pros": ["Iconic and immersive", "Integrated into natural site"],
+          "cons": [
+            "Costly",
+            "Complex engineering",
+            "Requires regulatory approval"
+          ],
+          "cost": "$$$"
+        },
+        {
+          "title": "Restaurant Pavilion",
+          "image": "https://images.unsplash.com/photo-1682685797769-481b48222adf",
+          "description": "A small onsite dining experience serving local and wellness-focused cuisine.",
+          "pros": ["Adds F&B revenue", "Anchors longer stays"],
+          "cons": ["Equipment & staff", "Ongoing operating costs"],
+          "cost": "$$$"
+        },
+        {
+          "title": "Desert Café / Lookout Lounge",
+          "image": "https://images.unsplash.com/photo-1680381792123-676305af82d8",
+          "description": "A simple café at a high point or edge to enjoy coffee and views.",
+          "pros": [
+            "Light touch",
+            "Emotional highlight",
+            "Lower setup cost than full restaurant"
+          ],
+          "cons": ["Limited capacity", "Needs path access"],
+          "cost": "$$"
+        },
+        {
+          "title": "Wellness Deck / Outdoor Yoga Platform",
+          "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+          "description": "A dedicated zone for yoga, meditation, or silent reflection.",
+          "pros": ["Fits wellness retreat vision", "Low build cost"],
+          "cons": ["Needs shade", "Noise buffer if shared"],
+          "cost": "$"
+        },
+        {
+          "title": "Lighting Pathways",
+          "image": "https://images.unsplash.com/photo-1602406371794-96bcae876a95?q=80&w=1600&h=1000&auto=format&fit=crop&crop=bottom",
+          "description": "Discreet lighting along key walking routes.",
+          "pros": ["Safety", "Enhances atmosphere", "Night usability"],
+          "cons": ["Needs power routing", "Can disrupt mood if overdone"],
+          "cost": "$"
+        },
+        {
+          "title": "Spa",
+          "image": "https://images.unsplash.com/photo-1583416750470-965b2707b355",
+          "description": "A tranquil space offering massage, hammam, or holistic treatments tailored to the desert environment.",
+          "pros": [
+            "Premium wellness offering",
+            "Strong differentiation for retreat market"
+          ],
+          "cons": [
+            "High setup and operational cost",
+            "Requires specialist staff"
+          ],
+          "cost": "$$$"
+        },
+        {
+          "title": "Lounge",
+          "image": "https://images.unsplash.com/photo-1661882785349-359eddae3d4b",
+          "description": "A shaded indoor-outdoor space for socializing, reading, and relaxing.",
+          "pros": [
+            "Versatile space",
+            "Can double as reception or cultural point"
+          ],
+          "cons": ["Needs styling and maintenance"],
+          "cost": "$$"
+        },
+        {
+          "title": "Observatory",
+          "image": "https://images.unsplash.com/photo-1515705576963-95cad62945b6",
+          "description": "An open-sky or telescope-equipped observatory for desert stargazing experiences.",
+          "pros": ["Memorable and unique", "No light pollution in region"],
+          "cons": ["Limited use in cloudy conditions", "Specialist setup"],
+          "cost": "$$"
+        },
+        {
+          "title": "Camel Rides",
+          "image": "https://images.unsplash.com/photo-1461237439866-5a557710c921",
+          "description": "Offer short or scenic camel rides for cultural immersion and slow exploration.",
+          "pros": ["Authentic and photo-friendly", "Can be run on demand"],
+          "cons": [
+            "Requires animal care and staff",
+            "Limited appeal for some guests"
+          ],
+          "cost": "$$"
+        },
+        {
+          "title": "Swing or Hammock Spots",
+          "image": "https://images.unsplash.com/photo-1600502610238-e1bb4924381d ",
+          "description": "Strategic placement of swings or hammocks for relaxation and photo moments.",
+          "pros": ["Low cost", "Great for Instagram and stillness"],
+          "cons": ["Needs thoughtful placement", "Can look kitsch if overused"],
+          "cost": "$"
+        },
+        {
+          "title": "Handicraft Learning Space",
+          "image": "https://images.unsplash.com/photo-1650826126169-c16bf0ed88de",
+          "description": "A place where guests can learn or observe local craft traditions like weaving or pottery.",
+          "pros": ["Deepens cultural connection", "Supports local artisans"],
+          "cons": [
+            "Needs coordination with experts",
+            "Varies with guest interest"
+          ],
+          "cost": "$$"
+        },
+        {
+          "title": "Outdoor Theater",
+          "image": "https://images.unsplash.com/photo-1721733258290-cac1a9204564",
+          "description": "A terraced or open-floor seating area for outdoor talks, screenings, or performances.",
+          "pros": ["Flexible use", "Event or gathering anchor"],
+          "cons": ["Needs sound setup", "Limited use in wind or heat"],
+          "cost": "$$"
+        },
+        {
+          "title": "Bedouin Tent Experience",
+          "image": "https://images.unsplash.com/photo-1611313053536-065b4fbaa40c",
+          "description": "A traditional-style tent setup for dining, storytelling, or hosted gatherings.",
+          "pros": [
+            "Culturally immersive",
+            "Flexible use for groups or evenings"
+          ],
+          "cons": [
+            "Needs authentic decor and curation",
+            "Can be overdone if not genuine"
+          ],
+          "cost": "$$"
+        }
+      ]
+    },
+    "appendix-a1": {
+      "title": "Appendix A1: Current On-Site Structures",
+      "description": "Ground-Level Visual Documentation — showcasing palm groves, sandstone terrain, and current structures.",
+      "items": [
+        "3-bedroom rental unit (positioned deeper into the property)",
+        "2-bedroom rental unit (closer to the road entrance)",
+        "1 staff room",
+        "2 large traditional tents",
+        "Irrigation system for palm grove (existing)",
+        "Access road to both units",
+        "Large grove of mature palm trees",
+        "Naturally occurring rock formations",
+        "Visible terrain gradient and cleared zones"
+      ]
+    },
+    "appendix-a2": {
+      "title": "Appendix A2: Unverified Inscriptions",
+      "description": "Possible traces of the past — yet to be verified.",
+      "text": "While exploring the site, several stone etchings were observed across exposed sandstone surfaces. These include carvings resembling camels, mounted riders, and abstract figures — motifs visually similar to known petroglyphs in the AlUla region.",
+      "important-context": {
+        "label": "Important Context:",
+        "text": "These markings have not been verified by any archaeological authority. Modern Arabic inscriptions were also noted in proximity to these etchings which suggests at least partial recent additions."
+      },
+      "next-steps": {
+        "label": "Next Steps:",
+        "text": "Further expert review is recommended to determine:",
+        "items": [
+          "Whether any of the carvings pre-date the modern era",
+          "The potential historical or cultural significance of the markings",
+          "Whether they could be incorporated as part of the site narrative (if verified)"
+        ],
+        "text2": "If found to be authentic, these etchings could provide a rare opportunity to integrate the story of ancient travel, settlement, or ritual into the identity of the retreat — enhancing the sense of timelessness and place."
+      }
+    },
+    "photo-gallery": {
+      "title": "Photo Gallery",
+      "description": "On-site documentation capturing natural features, structures, and spatial texture."
+    }
   }
-]
 }

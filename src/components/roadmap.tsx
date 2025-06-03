@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useTranslation } from "react-i18next";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -67,9 +68,17 @@ export const roadmapEn = [
   },
 ];
 
+type RoadmapItem = {
+  title: string;
+  descriptionPoints: string[];
+};
+
 export default function Roadmap() {
   const sectionRef = useRef<HTMLElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const { t } = useTranslation("home", {
+    keyPrefix: "content.roadmap",
+  });
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -92,27 +101,33 @@ export default function Roadmap() {
     return () => ctx.revert();
   }, []);
 
+  const roadmap = t("map", {
+    returnObjects: true,
+  }) as RoadmapItem[];
+
   return (
     <section
       ref={sectionRef}
-      className="h-screen w-full overflow-hidden bg-amber-800 text-white">
+      className="h-screen w-full overflow-hidden bg-amber-800 text-white"
+    >
       <div className="p-24">
-        <h1 className="anim text-6xl font-bold">Roadmap</h1>
+        <h1 className="anim text-6xl font-bold">{t("title")}</h1>
         <p className="anim opacity-80 uppercase font-bold mb-12">
-          A few early ideas inspired by the essence of the place.
+          {t("description")}
         </p>
       </div>
       <div className="relative timeline">
-        {/* Connecting line */}
         <div className="absolute top-0 left-0 w-full h-1 bg-amber-600 z-0"></div>
 
         <div
           ref={containerRef}
-          className="relative flex items-top space-x-24 z-10 translate-x-24">
-          {roadmapEn.map((phase, index) => (
+          className="relative flex items-top space-x-24 z-10 translate-x-24"
+        >
+          {roadmap.map((phase, index) => (
             <div
               key={index}
-              className="roadmap-phase w-96 pt-12 ps-6 flex-shrink-0 snap-center relative">
+              className="roadmap-phase w-96 pt-12 ps-6 flex-shrink-0 snap-center relative"
+            >
               {/* Number badge */}
               <div className="absolute top-0 left-0 w-12 h-12 text-3xl -translate-y-1/2 z-20 bg-amber-600 text-amber-800 flex items-center justify-center rounded-full font-medium">
                 {index + 1}

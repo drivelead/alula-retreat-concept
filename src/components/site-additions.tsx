@@ -1,18 +1,38 @@
+import { serverSideTranslation } from "@/lib/i18n";
+import { Locale } from "@/lib/types/i18n";
 import React from "react";
 
-type Props = {};
+type Props = {
+  locale: Locale;
+};
 
-export default function SiteAdditions({}: Props) {
+type SiteAddition = {
+  title: string;
+  image: string;
+  description: string;
+  pros: string[];
+  cons: string[];
+  cost: string;
+};
+
+export default async function SiteAdditions({ locale }: Props) {
+  const { t } = await serverSideTranslation(locale, ["home"], {
+    keyPrefix: "content.site-additions",
+  });
+
+  const siteAdditions = t("options", {
+    returnObjects: true,
+  }) as SiteAddition[];
+
   return (
     <section className="px-8 py-16 min-h-dvh bg-neutral-950 text-white">
-      <h2 className="text-4xl font-bold mb-12 text-center">
-        Potential Site Additions
-      </h2>
+      <h2 className="text-4xl font-bold mb-12 text-center">{t("title")}</h2>
       <div className="relative">
         {siteAdditions.map((item, i) => (
           <div
             key={i}
-            className="w-[80vw] absolute top-0 bg-neutral-900 rounded-xl shadow-lg overflow-hidden border border-white/10">
+            className="w-[80vw] absolute top-0 bg-neutral-900 rounded-xl shadow-lg overflow-hidden border border-white/10"
+          >
             <img
               src={item.image}
               alt={item.title}
@@ -32,7 +52,8 @@ export default function SiteAdditions({}: Props) {
                   {item.pros.map((pro, idx) => (
                     <span
                       key={idx}
-                      className="text-xs bg-emerald-700/40 text-emerald-200 px-2 py-1 rounded-full">
+                      className="text-xs bg-emerald-700/40 text-emerald-200 px-2 py-1 rounded-full"
+                    >
                       &#43;&nbsp;{pro}
                     </span>
                   ))}
@@ -44,7 +65,8 @@ export default function SiteAdditions({}: Props) {
                   {item.cons.map((con, idx) => (
                     <span
                       key={idx}
-                      className="text-xs bg-rose-700/40 text-rose-200 px-2 py-1 rounded-full">
+                      className="text-xs bg-rose-700/40 text-rose-200 px-2 py-1 rounded-full"
+                    >
                       &#8722;&nbsp;{con}
                     </span>
                   ))}
