@@ -16,6 +16,7 @@ import { Locale } from "@/lib/types/i18n";
 import AppendixA1 from "@/components/appendix-a1";
 import AppendixA2 from "@/components/appendix-a2";
 import PhotoGallery from "@/components/photo-gallery";
+import Booking from "@/components/booking";
 
 type Props = {
   params: Promise<{ locale: Locale }>;
@@ -39,6 +40,7 @@ export default async function Home({ params }: Props) {
           <Names locale={locale} />
           <SiteAdditions locale={locale} />
           <Roadmap locale={locale} />
+          <Booking locale={locale} />
           <AppendixA1 locale={locale} />
           <AppendixA2 locale={locale} />
           <PhotoGallery locale={locale} />
