@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTranslation } from "react-i18next";
 import { Locale } from "@/lib/types/i18n";
 import { getDirection } from "@/lib/utils";
+import { localesEqv } from "@/lib/i18n";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -72,7 +73,7 @@ export default function Roadmap({ locale }: Props) {
               className="roadmap-phase w-96 pt-12 ps-6 flex-shrink-0 snap-center relative">
               {/* Number badge */}
               <div className="absolute top-0 start-0 w-12 h-12 text-3xl -translate-y-1/2 z-20 bg-amber-600 text-white flex items-center justify-center rounded-full font-medium">
-                {index + 1}
+                {(index + 1).toLocaleString(localesEqv[locale])}
               </div>
 
               <h2 className="text-4xl font-bold text-amber-400 mb-4">
