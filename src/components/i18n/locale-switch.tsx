@@ -37,10 +37,8 @@ export default function LocaleSwitch() {
 
   return (
     <div className="widget locale-switch-widget">
-      <button
-        className="w-auto cursor-pointer bg-transparent"
-        onClick={onLocaleChange}>
-        <span className="rtl:text-xs rtl:tracking-wide rtl:uppercase px-4">
+      <button className="w-auto cursor-pointer" onClick={onLocaleChange}>
+        <span className="rtl:text-xs rtl:tracking-wide rtl:uppercase">
           {activeLocale === "en" ? "عربي" : "English"}
         </span>
       </button>

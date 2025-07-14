@@ -8,6 +8,7 @@ import I18NProvider from "@/components/i18n/translations-provider";
 
 import "../globals.css";
 import { serverSideTranslation } from "@/lib/i18n";
+import Header from "@/components/header";
 
 export async function generateMetadata({
   params,
@@ -39,10 +40,8 @@ export default async function RootLayout({
       <body className="antialiased relative">
         {/* pass locale to client-side i18n provider */}
         <I18NProvider locale={locale} namespaces={[]} resources={[]}>
+          <Header locale={locale} />
           {children}
-          <div className="fixed top-8 end-8 z-10 rounded-full px-2 py-1 bg-white/20 hover:bg-white/30 shadow border border-neutral-50 text-white">
-            <LocaleSwitch />
-          </div>
         </I18NProvider>
       </body>
     </html>

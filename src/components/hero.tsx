@@ -39,7 +39,7 @@ export default function Hero() {
           width={1920}
           height={1080}
           alt="Hegra-AlUla Retreat Development"
-          className="scale-140 object-cover h-full w-full will-change-transform"
+          className="absolute inset-0 scale-140 object-cover h-full w-full will-change-transform"
         />
       </div>
       <div className="absolute top-0 h-full w-full bg-radial bg-radial-[at_0%_0%] from-yellow-300 via-yellow-400 to-amber-600 opacity-20" />

@@ -7,15 +7,14 @@ import { getDirection } from "@/lib/utils";
 
 type Props = { locale: Locale };
 
-export default async function Section3({ locale }: Props) {
+export default async function ThingsToDo({ locale }: Props) {
   const { t } = await serverSideTranslation(locale, ["home"], {
     keyPrefix: "content.section-3",
   });
   return (
     <SectionWrapper
       id="features"
-      className="bg-gradient-to-tl from-lime-900 to-lime-950 text-white relative flex flex-col items-center justify-center"
-    >
+      className="bg-gradient-to-tl from-lime-900 to-lime-950 text-white relative flex flex-col items-center justify-center">
       <h1 className="text-6xl font-bold">{t("title")}</h1>
       <p className="opacity-80 uppercase font-bold mb-12">{t("description")}</p>
 
